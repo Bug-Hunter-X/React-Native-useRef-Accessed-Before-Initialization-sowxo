@@ -1,0 +1,3 @@
+# React Native useRef Accessed Before Initialization
+
+This repository demonstrates a common error in React Native: accessing a useRef value before it's been initialized.  The `bug.js` file contains the problematic code, while `bugSolution.js` provides the corrected version.  The issue arises when attempting to access `myRef.current` before the component has fully mounted and the ref has been attached to the DOM element.
